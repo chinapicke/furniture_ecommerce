@@ -1,0 +1,60 @@
+.heroContainer{
+    background-image: url('../hero1.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    /* width:100vw; */
+    height:50vh;
+}
+
+.optionsDropDown {
+    background-color: white;
+    top: 38px;
+    width: 80vw;
+    z-index: 2;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+
+.searchBtn{
+    padding:5px;
+}
+
+.sortBanner.rounded-xl.bg-slate-100.mt-auto.mb-4.flex.flex-col.md\:grid.md\:grid-cols-4.mx-3 {
+    position: relative;
+    top: 100px;
+}
+
+.cardContainer{
+    background-color:#f2f2f2;
+}
+
+@media screen and (min-width:768px) {
+    .heroContainer{
+        background-image: url('../hero1.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+        height:100vh;
+    }
+
+    .optionsDropDown {
+        width: 20vw;
+    }
+
+    .sortBanner.rounded-xl.bg-slate-100.mt-auto.mb-4.flex.flex-col.md\:grid.md\:grid-cols-4.mx-3 {
+        top: 0px;
+        position:static
+    }
+}    
+
+
+@media screen and (min-width:1044px) {
+    .optionsDropDown {
+        width: 23vw;
+    }
+
+    .searchBtn{
+        padding: 5px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+}    
